@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Portal</title>
+    <link href="../assets/img/favicon_io (3)/favicon.ico" rel="icon">
+    <link href="../assets/img/favicon_io (3)/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
+rel="stylesheet"
+/>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<!--Main Navigation-->
+<header>
+    <!-- Sidebar -->
+    <nav
+         id="sidebarMenu"
+         class="collapse d-lg-block sidebar collapse bg-white"
+         >
+      <div class="position-sticky">
+        <div class="list-group list-group-flush mx-3 mt-4">
+          <a
+             href="#"
+             class="list-group-item list-group-item-action py-2 ripple active"
+             aria-current="true"
+             >
+            <i class="fas fa-tachometer-alt fa-fw me-3"></i
+              ><span>Main dashboard</span>
+          </a>
+          <a
+             href="#"
+             class="list-group-item list-group-item-action py-2 ripple"
+             ><i class="fas fa-globe fa-fw me-3"></i
+            ><span>Current Drives</span></a
+            >
+          <a
+             href="#"
+             class="list-group-item list-group-item-action py-2 ripple"
+             ><i class="fas fa-calendar fa-fw me-3"></i
+            ><span>Upcoming Drives</span></a
+            >
+          <a
+             href="#"
+             class="list-group-item list-group-item-action py-2 ripple"
+             ><i class="fas fa-users fa-fw me-3"></i><span>Students Profile</span></a
+            >
+        </div>
+      </div>
+    </nav>
+    <!-- Sidebar -->
+  
+    <!-- Navbar -->
+    <nav
+         id="main-navbar"
+         class="navbar navbar-expand-lg navbar-light bg-white fixed-top"
+         >
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#sidebarMenu"
+                aria-controls="sidebarMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+          <i class="fas fa-bars"></i>
+        </button>
+  
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+          <img
+               src="../assets/img/02-04-2020-AM-10-21-221497171628Maharaja Surajmal Institute of Technology (MSIT), New Delhi Logo.png"
+               height="50"
+               alt=""
+               width="60"
+               loading="lazy"
+               />
+        </a>
+        <h4>Welcome,Admin</h4>
+        <!-- Search form -->
+  
+        <!-- Right links -->
+        <ul class="navbar-nav ms-auto d-flex flex-row">
+          <!-- Notification dropdown -->
+          <li class="nav-item dropdown">
+            <a
+               class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow"
+               href="#"
+               id="navbarDropdownMenuLink"
+               role="button"
+               data-mdb-toggle="dropdown"
+               aria-expanded="false"
+               >
+              <i class="fas fa-bell"></i>
+              <span class="badge rounded-pill badge-notification bg-danger"
+                    >1</span
+                >
+            </a>
+            <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="navbarDropdownMenuLink"
+                >
+              <li><a class="dropdown-item" href="#">Some news</a></li>
+              <li><a class="dropdown-item" href="#">Another news</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+  
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+  </header>
+  <!--Main Navigation-->
+  
+  <!--Main layout-->
+  <main style="margin-top: 58px">
+    <div class="container pt-4">
+      <!-- Section: Main chart -->
+  
+  
+      <!--Section: Minimal statistics cards-->
+      <section>
+        <div class="row">
+          <div class="col-xl-3 col-sm-6 col-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-between px-md-1">
+                  <div>
+                    <h3 class="text-warning">15</h3>
+                    <p class="mb-0">Companies participated</p>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="fas fa-map-signs text-danger fa-3x"></i>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-sm-6 col-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-between px-md-1">
+                  <div>
+                    <h3 class="text-success">156</h3>
+                    <p class="mb-0">New Clients</p>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="far fa-user text-success fa-3x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-sm-6 col-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-between px-md-1">
+                  <div>
+                    <h3 class="text-warning">90%</h3>
+                    <p class="mb-0"> Placement Success Rate</p>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="far fa-comments text-warning fa-3x"></i>
+                  </div>
+                </div>
+                <div class="px-md-1">
+                  <div class="progress mt-3 mb-1 rounded" style="height: 7px">
+                    <div
+                         class="progress-bar bg-warning"
+                         role="progressbar"
+                         style="width: 90%"
+                         aria-valuenow="90"
+                         aria-valuemin="0"
+                         aria-valuemax="100"
+                         ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-sm-6 col-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-between px-md-1">
+                  <div>
+                    <h3 class="text-warning">Rs15lpa</h3>
+                    <p class="mb-0">Average Salary Offered</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-sm-6 col-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-between px-md-1">
+                  <div>
+                    <h3 class="text-success">250</h3>
+                    <p class="mb-0">Students Registered</p>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="far fa-user text-success fa-3x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-sm-6 col-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-between px-md-1">
+                  <div>
+                    <h3 class="text-warning">2</h3>
+                    <p class="mb-0">Total Drive Posts</p>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="far fa-comments text-warning fa-3x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+        
+      </section>
+      <!--Section: Minimal statistics cards-->
+  
+      <!--Section: Statistics with subtitles-->
+      <section>
+        <div class="row">
+          <div class="col-xl-6 col-md-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-between p-md-1">
+                  <div class="d-flex flex-row">
+                    <div class="align-self-center">
+                      <h2 class="h1 mb-0 me-4">$76,456.00</h2>
+                    </div>
+                    <div>
+                      <h4>Total Placement Record</h4>
+                    </div>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="far fa-heart text-danger fa-3x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Section: Statistics with subtitles-->
+    </div>
+  </main>
+  <!--Main layout-->
+  <!-- MDB -->
+  <script src="admin.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
+</body>
+</html>
