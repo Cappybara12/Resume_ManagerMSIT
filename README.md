@@ -1,2 +1,8 @@
-# Sign-In-SignUp
-I created the sign in sign up forms that creates the user if user wants to sign up and in the sign up form checks the existence of user by using cookies and displays whether is logged in or not.
+# Resume_Manager MSIT
+Worked on the resume manager of my college that consists of various use cases for the students to get info regarding placement drives and also for the placement call to manage the resume of the preffered candidates.
+
+#Skills Used
+Php(First hands on)
+node.js
+html css js
+
